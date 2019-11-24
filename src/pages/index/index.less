@@ -1,0 +1,27 @@
+.swiper-container {
+  width: 100vw;
+  height: 450px;
+  .swiper-img,img {
+    height: 450px!important;
+  }
+}
+.img-box{
+  transition: all 0.2s;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.swiper-slide-active{
+  .img-box{
+    transform: scale(0.8) ;
+  }
+}
+.swiper-slide-prev{
+  .img-box{
+    transform: scale(0.7)translate(220px);
+  }
+}
+.swiper-slide-next{
+  .img-box{
+    transform: scale(0.7)translate(-220px);
+  }
+}
